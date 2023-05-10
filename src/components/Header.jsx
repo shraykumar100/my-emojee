@@ -24,12 +24,12 @@ function Header() {
 	return (
 		<div className="header">
 			<h1>
-				Emoji Search{" "}
+				My Emojee{" "}
 				<span role="img" aria-label="Unicorn Emoji">
 					🦄
 				</span>
 			</h1>
-			<p>A simple emoji search tool made with ReactJS.</p>
+			<p>A simple emoji search tool made with ReactJS</p>
 
 			<div className="container">
 				<Toggle parentCallback={callback} />
